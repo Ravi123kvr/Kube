@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: Kube-Exp
+  name: kube-exp
 spec:
   containers:
     - name: sample-cont
