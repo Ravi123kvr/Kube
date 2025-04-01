@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: pod
+metadata:
+  name: Kube-Exp
+spec:
+  containers:
+    - name: sample-cont
+      image: ravikv123/apachewebserver:apache-cust
+      ports:
+        -containerPort: 80
