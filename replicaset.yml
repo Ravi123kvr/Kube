@@ -11,8 +11,9 @@ spec:
     metadata:
       labels:
         web: app
-  containers:
-     - name: sample-cont
-       image: ravikv123/apachewebserver:apache-cust
-       ports:
-       - containerPort: 80
+    spec:
+      containers:
+        - name: sample-cont
+          image: ravikv123/apachewebserver:apache-cust
+          ports:
+            - containerPort: 80
