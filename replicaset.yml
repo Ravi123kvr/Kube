@@ -1,5 +1,5 @@
 apiVersion: apps/v1
-kind: resplicaSet
+kind: ReplicaSet
 metadata:
   name: sample-app-rs
 spec:
