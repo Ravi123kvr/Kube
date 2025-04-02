@@ -5,7 +5,7 @@ metadata:
 spec:
   replicas: 5
   selector: 
-    matchlabels:
+    matchLabels:
       web: app
   template: #Define the pod definition
     metadata:
