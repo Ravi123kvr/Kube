@@ -1,0 +1,15 @@
+apiVersion: apps/v1
+kind: ResplicaSet
+metadata:
+  name: sample-app-rs
+spec:
+  replicas: 5
+  template: #Define the pod definition
+    metadata:
+      labels:
+        web: app
+  containers:
+     - name: sample-cont
+       image: ravikv123/apachewebserver:apache-cust
+       ports:
+       - containerPort: 80
