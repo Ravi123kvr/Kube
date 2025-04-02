@@ -1,9 +1,12 @@
 apiVersion: apps/v1
-kind: ResplicaSet
+kind: resplicaSet
 metadata:
   name: sample-app-rs
 spec:
   replicas: 5
+  selector: 
+    matchlabels:
+      web: app
   template: #Define the pod definition
     metadata:
       labels:
