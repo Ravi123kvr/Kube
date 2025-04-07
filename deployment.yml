@@ -10,7 +10,7 @@ spec:
   template:
     metadata:
       labels:
-        web: sample
+        web: sample 
     spec:
       containers:
         - image: ravikv123/exaple-test:latest
