@@ -1,10 +1,10 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: kube-exp
+  name: sample-pod
 spec:
   containers:
-    - name: sample-pod
+    - name: sample-cont
       image: ravikv123/webserver:mywebserver
       ports:
-        - containerPort: 80
+        - containerPort: 5656
