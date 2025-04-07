@@ -4,7 +4,7 @@ metadata:
   name: kube-exp
 spec:
   containers:
-    - name: sample-cont
-      image: ravikv123/apachewebserver:apache-cust
+    - name: sample-pod
+      image: ravikv123/webserver:mywebserver
       ports:
         - containerPort: 80
