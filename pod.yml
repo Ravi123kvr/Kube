@@ -4,7 +4,7 @@ metadata:
   name: sample-pod
 spec:
   containers:
-    - name: sample-cont1
+    - name: sample-cont2
       image: ravikv123/webserver:newwebserver
       ports:
-        - containerPort: 80
+        - containerPort: 81
