@@ -5,6 +5,10 @@ metadata:
 spec:
   containers:
     - name: sample-cont1
-      image: ravikv123/webserver:mywebserver
+      image: ravikv123/kart:flowernodejs
       ports:
-        - containerPort: 80
+        - containerPort: 3000
+    - name: sample-backendcont1
+      image: ravikv123/kart:backend
+      ports:
+        - containerPort: 27017
