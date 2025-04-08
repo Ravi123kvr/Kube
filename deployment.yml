@@ -13,7 +13,7 @@ spec:
         web: sample 
     spec:
       containers:
-        - image: ravikv123/exaple-test:latest
+        - image: ravikv123/webserver:newwebserver
           name: sample-app-doc
           ports:
             - containerPort: 5656

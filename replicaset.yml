@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: ReplicaSet
 metadata:
-  name: sample-app-rs
+  name: sample-rs
 spec:
   replicas: 5
   selector: 
@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
         - name: sample-cont
-          image: ravikv123/apachewebserver:apache-cust
+          image: ravikv123/webserver:newwebserver
           ports:
             - containerPort: 80
