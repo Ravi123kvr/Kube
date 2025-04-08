@@ -14,8 +14,8 @@ spec:
     spec:
       containers:
         - image: ravikv123/webserver:newwebserver
-          name: sample-app-doc
+          name: sample-cont
           ports:
-            - containerPort: 5656
+            - containerPort: 80
 
 
